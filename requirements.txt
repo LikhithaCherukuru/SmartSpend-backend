@@ -1,0 +1,60 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+
+# Database
+supabase==2.18.1
+postgrest==1.1.1
+
+# Environment Variables
+python-dotenv==1.1.1
+
+# Validation
+pydantic==2.11.7
+pydantic-settings==2.10.1
+email-validator==2.3.0
+
+# Authentication
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.3.0
+
+# Forms & File Uploads
+python-multipart==0.0.20
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Email
+fastapi-mail==1.5.0
+
+# Background Jobs
+apscheduler==3.11.0
+
+# AI
+openai==1.99.9
+
+# OCR
+pytesseract==0.3.13
+Pillow==11.3.0
+
+# Image Storage
+cloudinary==1.44.1
+
+# HTTP Client
+httpx==0.28.1
+
+# Date Utilities
+python-dateutil==2.9.0.post0
+
+# Logging
+loguru==0.7.3
+
+# Testing
+pytest==8.4.1
+pytest-asyncio==1.1.0
+
+# Production
+gunicorn==23.0.0
+
+# Security
+cryptography==45.0.6
